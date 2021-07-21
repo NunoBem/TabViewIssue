@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TabViewIssue.Views.ItemsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    x:Name="BrowseItemsPage"
+    Title="Title">
+
+    <ContentPage.Content>
+        <Grid>
+
+            <xct:TabView TabIndicatorColor="Gold">
+
+                <xct:TabViewItem
+                    FontSize="14"
+                    Text="Tab 1"
+                    TextColorSelected="Gold">
+                    <Label FontSize="Large" Text="Tab 1" />
+                </xct:TabViewItem>
+
+                <xct:TabViewItem
+                    FontSize="14"
+                    Text="Tab 2"
+                    TextColorSelected="Gold">
+                    <Label FontSize="Large" Text="Tab 2" />
+                </xct:TabViewItem>
+
+                <xct:TabViewItem
+                    FontSize="14"
+                    Text="Tab 3"
+                    TextColorSelected="Gold">
+                    <Label FontSize="Large" Text="Tab 3" />
+                </xct:TabViewItem>
+
+            </xct:TabView>
+
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
