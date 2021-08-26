@@ -10,27 +10,39 @@
     <ContentPage.Content>
         <Grid>
 
-            <xct:TabView TabIndicatorColor="Gold">
+            <xct:TabView TabIndicatorColor="Red">
 
                 <xct:TabViewItem
                     FontSize="14"
                     Text="Tab 1"
-                    TextColorSelected="Gold">
-                    <Label FontSize="Large" Text="Tab 1" />
+                    TextColorSelected="Red">
+                    <Label
+                        Margin="20"
+                        FontSize="Medium"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Tab 1 Content" />
                 </xct:TabViewItem>
 
                 <xct:TabViewItem
                     FontSize="14"
                     Text="Tab 2"
-                    TextColorSelected="Gold">
-                    <Label FontSize="Large" Text="Tab 2" />
+                    TextColorSelected="Red">
+                    <Label
+                        Margin="20"
+                        FontSize="Medium"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Tab 2 Content" />
                 </xct:TabViewItem>
 
                 <xct:TabViewItem
                     FontSize="14"
                     Text="Tab 3"
-                    TextColorSelected="Gold">
-                    <Label FontSize="Large" Text="Tab 3" />
+                    TextColorSelected="Red">
+                    <Label
+                        Margin="20"
+                        FontSize="Medium"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Tab 3 Content" />
                 </xct:TabViewItem>
 
             </xct:TabView>
